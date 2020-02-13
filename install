@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/BOYKA
+cd $HOME/BROK
 install() {
 rm -rf $HOME/.telegram-cli
 sudo apt-get update -y
@@ -20,7 +20,7 @@ sudo apt-get install lua-lgi -y
 sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
 lua BOYKA.lua
-sudo chmod +x BOYKA
+sudo chmod +x BROK
 sudo chmod +x ./BK
 ./BK
 }
@@ -33,7 +33,7 @@ exit 1
 fi
 sudo chmod +x tg
 lua BOYKA.lua
-sudo chmod +x BOYKA
+sudo chmod +x BROK
 sudo chmod +x ./BK
 ./BK
 fi
